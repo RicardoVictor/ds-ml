@@ -1,6 +1,10 @@
+from sklearn.naive_bayes import MultinomialNB
 import csv
 
 ''' Codigo para classificar usuario em paginas web entre comprou e nao comprou '''
+# a abordagem utilizada foi:
+# 90% para treino e 10% para teste 
+# taxa e acerto encontrada: 88.89%
 
 def carregar_acessos():
     
@@ -18,7 +22,22 @@ def carregar_acessos():
     return X, Y
 
 
-dados, marcacoes = carregar_acessos()
+X, Y = carregar_acessos()
 
-print(dados)
-print(marcacoes)
+dados_treino = X[:90]
+marcacoes_treino = Y[:90]
+
+dados_teste = X[-9:]
+marcacoes_teste = Y[-9:]
+
+modelo = MultinomialNB()
+modelo.fit(dados_treino, marcacoes_treino)
+
+predicoes = modelo.predict(dados_teste)
+
+quantidade_acertos = len([i for i in range(len(predicoes)) if predicoes[i] == marcacoes_teste[i]])
+
+print('quantidade acertos:', quantidade_acertos)
+print('quantidade casos:', len(dados_teste))
+print('taxa de acerto:', quantidade_acertos*100/len(dados_teste))
+
