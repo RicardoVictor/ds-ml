@@ -1,7 +1,8 @@
 from sklearn.naive_bayes import MultinomialNB
 import csv
 
-''' Codigo para classificar usuario em paginas web entre comprou e nao comprou '''
+''' Codigo para classificar usuarios em paginas web entre comprou e nao comprou '''
+
 # a abordagem utilizada foi:
 # 90% para treino e 10% para teste 
 # taxa e acerto encontrada: 88.89%
