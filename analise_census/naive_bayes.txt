@@ -1,0 +1,8 @@
+    Teorema de bayes: 
+
+P(A|B) = P(B|A) . P(A) / P(B)
+
+ou
+
+P(A|B) = P(B|A) . P(A) / P(B|A) . P(A) + P(B|Ā) . P(Ā)
+
