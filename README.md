@@ -3,44 +3,44 @@ Estudos e códigos de Data Science e Machine Learning.
 
 ## Principais Algoritmos de Machine Learning:
 
-1. Regressão Linear
-	gradiente descendente (gd)
-	gradiente descendente estocástico (gde)
-	gde com momento (uma otimização do gde)
-	método dos mínimos quadrados (ols)
-	regressão polinomial
+- Regressão Linear
+	1. gradiente descendente (gd)
+	1. gradiente descendente estocástico (gde)
+	1. gde com momento (uma otimização do gde)
+	1. método dos mínimos quadrados (ols)
+	1. regressão polinomial
 
-2. Regressão Logística
+- Regressão Logística
 
-3. KNN
+- KNN
 
-4. SVM
+- SVM
 
-5. Naive Bayes
-	Gaussian
-	Multinomial
-	Bernoulli
+- Naive Bayes
+	1. Gaussian
+	1. Multinomial
+	1. Bernoulli
 
-6. Árvore de Decisão
-	estropia e ganho
-	indice gini
+- Árvore de Decisão
+	1. estropia e ganho
+	1. indice gini
 
-7. Random Forest
+- Random Forest
 
-8. K-means
+- K-means
 
-9. Clustering
+- Clustering
 
-10. Ensemble Methods
+- Ensemble Methods
 
-11. Decomposição em valores singulares
+- Decomposição em valores singulares
 
-12. Análise de componentes principais
+- Análise de componentes principais
 
-13. Análise de componentes independentes
+- Análise de componentes independentes
 
-14. Algoritmos de redução dimencional
+- Algoritmos de redução dimencional
 
-15. Gradient Boosting / algoritmos de aumento de gradiente (XGBoost)
+- Gradient Boosting / algoritmos de aumento de gradiente (XGBoost)
 
-16. Redes Neurais
+- Redes Neurais
