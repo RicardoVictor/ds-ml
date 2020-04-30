@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregamento do dataset
-base = pd.read_csv('credit_data.csv')
+base = pd.read_csv('../datasets/credit_data.csv')
 base.loc[base.age < 0, 'age'] = 40.92
 
 # Separação do dataset em previsores e classe

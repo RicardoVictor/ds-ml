@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregamento do dataset
-base = pd.read_csv('census.csv')
+base = pd.read_csv('../datasets/census.csv')
 
 # Separação do dataset em previsores e classe
 previsores = base.iloc[:, 0:14].values
