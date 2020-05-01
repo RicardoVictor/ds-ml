@@ -12,6 +12,8 @@ Estudos e códigos de Data Science e Machine Learning.
 
 - Regressão Logística
 
+- K-means
+
 - KNN
 
 - SVM
@@ -27,11 +29,18 @@ Estudos e códigos de Data Science e Machine Learning.
 
 - Random Forest
 
-- K-means
+- Ensemble Methods
+	
+	"Consultar diversos profissionais para tomar uma decisão"
+	
+	Vários algoritmos em conjunto para construir um algorimo mais 
+	forte
+	
+	Regressão: média
+	
+	Classificação: maioria
 
 - Clustering
-
-- Ensemble Methods
 
 - Decomposição em valores singulares
 
