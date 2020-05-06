@@ -2,7 +2,7 @@
 
 ## Quantitativas ou Numéricas:
 
-### Contínuas (*escala*):
+### Contínuas ("escala"):
 
 Assumem valores em uma escala contínua (na reta real), para as quais valores fracionais fazem sentido. Usualmente devem ser medidas através de algum 
 instrumento. 
@@ -10,7 +10,7 @@ instrumento.
 *Ex:* temperatura, altura, peso (balança), altura (régua),
 tempo (relógio), pressão arterial.        
 
-### Discretas (*contagem*):
+### Discretas ("contagem"):
 
 Características mensuráveis que podem assumir apenas um número finito ou infinito contável de valores e, assim, somente fazem sentido valores inteiros. Geralmente são o resultado de contagens.
 
