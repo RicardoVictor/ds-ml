@@ -1,0 +1,4 @@
+distancia euclidiana
+coeficiente de pearson
+indice de tanimoto
+city block
